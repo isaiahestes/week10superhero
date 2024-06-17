@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failed super hero names</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class = "form-group">
+                        <label for="fullName">Add new Super Hero:</label>
+                        <input type="text" id="fullName" class="form-control" placeholder="Enter full name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class = "form-group">
+                        <label for="power">Super Power:</label>
+                        <input type="text" id="power" class="form-control" placeholder="Enter super power">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm">
+                   <button class="btn btn-primary" id="add">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table id="list" class=" table table-dark table-striped">
+        <tr>
+            <th>Full Name</th>
+            <th>Super Power</th>
+            <th>Delete</th>
+        </tr>
+
+    </table>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
